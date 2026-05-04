@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rutas</title>
+</head>
+<body>
+
+  <h1>Explicacion: Rutas Absolutas y Relativas</h1>
+
+  <section>
+    <h2>Rutas Absolutas</h2>
+    <!-- Ruta Completa a un recurso en servidor externo. La ruta ansoluta es la URL completa del recurso, esta no se modifica segun la ubicacion del archivo actual -->
+    <p>
+      Para ir a un sitio externo, como el catalogo global de respuestos,
+      usamos la URL completa:
+      <a href="https://www.shimano.com">Visitar Shimano Internacional</a>
+    </p>
+
+    <img src="https://www.manualweb.net/img/covers/html5-cover.jpg" alt="Imagen HTML desde un servidor externo" width="300" height="200" title="HTML 5">
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Rutas Relativas</h2>
+    <!-- Ruta Relativa a un recurso dentro del mismo proyecto. La ruta relativa depende de la ubicación del archivo actual, y se ajusta segun la estructura de carpetas del proyecto -->
+
+    <p>
+      Ir a la pagina de <a href="04_Inline_Inblock.html">Inline vs Block</a>
+            <!-- Funciona si hay un archivo llamado 04_Inline_Inblock.html en la misma carpeta -->
+    </p>
+
+    <p>
+      Ver foto del aprendiz <a href="img/04_imagen.jpg">Aprendiz</a>
+      <!-- Funciona si hay un archivo llamado 04_imagen.jpg en la carpeta llamada "img" -->
+    </p>
+  </section>
+  
+</body>
+</html>
